@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="icon" type="img" href="images/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>MACLINE — Kelajak noutbuki</title>
+</head>
+<body>
+    <div id="loader">
+      <div id="type"></div>
+      <div id="lbar"><i></i></div>
+      <div id="lpct">0%</div>
+    </div>
+
+    <nav id="nav">
+      <a class="logo" href="#">MAC<b>LINE</b></a>
+      <ul>
+        <li><a href="#xususiyat">Xususiyatlar</a></li>
+        <li><a href="#chip">Protsessor</a></li>
+        <li><a href="#modellar">Modellar</a></li>
+        <li><a href="#savol">Savollar</a></li>
+      </ul>
+      <button class="btn" id="cartOpen" aria-haspopup="dialog">
+        Savat <span id="cartCount">0</span>
+      </button>
+    </nav>
+
+    <header>
+      <span class="tag"><i></i> Yangi avlod — 2026</span>
+      <h1 id="heroTitle"></h1>
+      <p class="sub">
+        MACLINE — eng yupqa, eng kuchli va eng chiroyli noutbuk. Ish, ijod va
+        ilhom uchun yaratilgan. Bir qarashda seziladi, bir teginishda ishonch
+        hosil qiladi.
+      </p>
+      <div class="hero-cta">
+        <a class="btn" href="#modellar">Modellarni ko'rish →</a>
+        <a class="btn ghost" href="#xususiyat">Batafsil</a>
+      </div>
+    </header>
+
+    <div class="marq"><div class="in" id="mq"></div></div>
+
+    <section id="xususiyat">
+      <span class="kick reveal">Nega MACLINE</span>
+      <h2 class="reveal">Kuch va go'zallik<br />bir tanada</h2>
+      <div class="stats">
+        <div class="stat reveal">
+          <b data-n="22">0</b><span>soat batareya</span>
+        </div>
+        <div class="stat reveal">
+          <b data-n="12">0</b><span>yadroli protsessor</span>
+        </div>
+        <div class="stat reveal">
+          <b data-n="980">0</b><span>gramm vazn</span>
+        </div>
+        <div class="stat reveal">
+          <b data-n="120">0</b><span>Hz ekran</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="split">
+        <div class="pic reveal">
+          <img src="images/mac-keyboard.jpg" alt="Klaviatura" loading="lazy" />
+        </div>
+        <div>
+          <span class="kick reveal">Dizayn</span>
+          <h2 class="reveal">Har bir detal<br />mukammal</h2>
+          <p class="lead reveal">
+            Alyuminiy korpus, yoritilgan klaviatura va ulkan trackpad — barchasi
+            sizning qo'lingiz uchun o'ylangan.
+          </p>
+          <div class="feats">
+            <div class="feat reveal">
+              <div class="ic">01</div>
+              <div>
+                <b>Magic klaviatura</b>
+                <p>Yumshoq bosim, orqa yorug'lik — tunda ham qulay yozing.</p>
+              </div>
+            </div>
+            <div class="feat reveal">
+              <div class="ic">02</div>
+              <div>
+                <b>6 dinamikli ovoz</b>
+                <p>Kinodek tovush — musiqa va filmlar yangi darajada.</p>
+              </div>
+            </div>
+            <div class="feat reveal">
+              <div class="ic">03</div>
+              <div>
+                <b>Barmoq izi himoyasi</b>
+                <p>Bir teginish — va siz ichkaridasiz. Xavfsiz va tez.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chipsec" id="chip">
+      <span class="kick reveal">Yurak</span>
+      <h2 class="reveal">N1 Ultra chip</h2>
+      <p class="lead reveal" style="margin: 0 auto">
+        O'z muhandislarimiz yaratgan chip — tezlikda raqobatchilardan 2 baravar
+        oldinda, sovuq va sokin ishlaydi.
+      </p>
+      <div class="pic reveal">
+        <img src="images/mac-chip.jpg" alt="N1 Ultra chip" loading="lazy" />
+      </div>
+      <div class="chips">
+        <div class="chip reveal">
+          <b>3.9x</b><span>tezroq video montaj</span>
+        </div>
+        <div class="chip reveal">
+          <b>38 trln</b><span>soniyada AI amallar</span>
+        </div>
+        <div class="chip reveal">
+          <b>-40%</b><span>kamroq energiya sarfi</span>
+        </div>
+        <div class="chip reveal">
+          <b>0 dB</b><span>shovqin — ventilyatorsiz</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="split rev">
+        <div class="pic reveal">
+          <img src="images/mac-side.jpg" alt="Yupqa korpus" loading="lazy" />
+        </div>
+        <div>
+          <span class="kick reveal">Portativlik</span>
+          <h2 class="reveal">11 mm yupqalik.<br />980 g vazn.</h2>
+          <p class="lead reveal">
+            Sumkangizda sezilmaydi, qo'lingizda charchatmaydi. Lekin ichida —
+            haqiqiy stantsiya kuchi: 2 ta Thunderbolt port, Wi-Fi 7 va kun bo'yi
+            yetadigan batareya.
+          </p>
+          <div class="feats">
+            <div class="feat reveal">
+              <div class="ic">04</div>
+              <div>
+                <b>Tez zaryad</b>
+                <p>30 daqiqada 50% — nonushta vaqtida to'ladi.</p>
+              </div>
+            </div>
+            <div class="feat reveal">
+              <div class="ic">05</div>
+              <div>
+                <b>Wi-Fi 7</b><span></span>
+                <p>Internet tezligi chegarasiz — har joyda onlayn.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="modellar">
+      <span class="kick reveal">Modellar</span>
+      <h2 class="reveal">O'zingiznikini tanlang</h2>
+      <div class="grid">
+        <div class="card reveal tilt" data-id="0" data-price="12490000">
+          <div class="ph">
+            <img src="images/images.jpeg" alt="MacBook Air 13, Silver" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Air 13"</h3>
+            <p class="spec">16 GB · 256 GB SSD · Silver</p>
+            <div class="row">
+              <div class="price">12 490 000 so'm</div>
+              <button class="buy" aria-label="MacBook Air 13 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="1" data-price="13990000">
+          <div class="ph">
+            <img src="images/images (1).jpeg" alt="MacBook Air 13, Midnight" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Air 13"</h3>
+            <p class="spec">16 GB · 512 GB SSD · Midnight</p>
+            <div class="row">
+              <div class="price">13 990 000 so'm</div>
+              <button class="buy" aria-label="MacBook Air 13 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="2" data-price="15490000">
+          <div class="ph">
+            <img src="images/images (2).jpeg" alt="MacBook Air 13, Starlight" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Air 13"</h3>
+            <p class="spec">24 GB · 512 GB SSD · Starlight</p>
+            <div class="row">
+              <div class="price">15 490 000 so'm</div>
+              <button class="buy" aria-label="MacBook Air 13 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="3" data-price="16990000">
+          <div class="ph">
+            <img src="images/images (3).jpeg" alt="MacBook Air 13, Space Grey" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Air 13"</h3>
+            <p class="spec">24 GB · 1 TB SSD · Space Grey</p>
+            <div class="row">
+              <div class="price">16 990 000 so'm</div>
+              <button class="buy" aria-label="MacBook Air 13 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="4" data-price="14990000">
+          <div class="ph">
+            <img src="images/images (4).jpeg" alt="MacBook Air 15, Silver" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Air 15"</h3>
+            <p class="spec">16 GB · 256 GB SSD · Silver</p>
+            <div class="row">
+              <div class="price">14 990 000 so'm</div>
+              <button class="buy" aria-label="MacBook Air 15 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="5" data-price="16490000">
+          <div class="ph">
+            <img src="images/images (5).jpeg" alt="MacBook Air 15, Midnight" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Air 15"</h3>
+            <p class="spec">16 GB · 512 GB SSD · Midnight</p>
+            <div class="row">
+              <div class="price">16 490 000 so'm</div>
+              <button class="buy" aria-label="MacBook Air 15 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="6" data-price="17990000">
+          <div class="ph">
+            <img src="images/images (6).jpeg" alt="MacBook Air 15, Starlight" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Air 15"</h3>
+            <p class="spec">24 GB · 512 GB SSD · Starlight</p>
+            <div class="row">
+              <div class="price">17 990 000 so'm</div>
+              <button class="buy" aria-label="MacBook Air 15 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="7" data-price="19490000">
+          <div class="ph">
+            <img src="images/images (7).jpeg" alt="MacBook Air 15, Space Grey" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Air 15"</h3>
+            <p class="spec">24 GB · 1 TB SSD · Space Grey</p>
+            <div class="row">
+              <div class="price">19 490 000 so'm</div>
+              <button class="buy" aria-label="MacBook Air 15 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="8" data-price="18990000">
+          <div class="ph">
+            <img src="images/images (8).jpeg" alt="MacBook Pro 14, Silver" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Pro 14"</h3>
+            <p class="spec">24 GB · 512 GB SSD · Silver</p>
+            <div class="row">
+              <div class="price">18 990 000 so'm</div>
+              <button class="buy" aria-label="MacBook Pro 14 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="9" data-price="20990000">
+          <div class="ph">
+            <img src="images/images (9).jpeg" alt="MacBook Pro 14, Space Black" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Pro 14"</h3>
+            <p class="spec">24 GB · 1 TB SSD · Space Black</p>
+            <div class="row">
+              <div class="price">20 990 000 so'm</div>
+              <button class="buy" aria-label="MacBook Pro 14 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="10" data-price="23490000">
+          <div class="ph">
+            <img src="images/images (10).jpeg" alt="MacBook Pro 14, Silver" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Pro 14"</h3>
+            <p class="spec">36 GB · 1 TB SSD · Silver</p>
+            <div class="row">
+              <div class="price">23 490 000 so'm</div>
+              <button class="buy" aria-label="MacBook Pro 14 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="11" data-price="26990000">
+          <div class="ph">
+            <img src="images/images (11).jpeg" alt="MacBook Pro 14, Space Black" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Pro 14"</h3>
+            <p class="spec">48 GB · 2 TB SSD · Space Black</p>
+            <div class="row">
+              <div class="price">26 990 000 so'm</div>
+              <button class="buy" aria-label="MacBook Pro 14 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="12" data-price="26490000">
+          <div class="ph">
+            <img src="images/images (12).jpeg" alt="MacBook Pro 16, Silver" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Pro 16"</h3>
+            <p class="spec">36 GB · 512 GB SSD · Silver</p>
+            <div class="row">
+              <div class="price">26 490 000 so'm</div>
+              <button class="buy" aria-label="MacBook Pro 16 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="13" data-price="28490000">
+          <div class="ph">
+            <img src="images/images (13).jpeg" alt="MacBook Pro 16, Space Black" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Pro 16"</h3>
+            <p class="spec">36 GB · 1 TB SSD · Space Black</p>
+            <div class="row">
+              <div class="price">28 490 000 so'm</div>
+              <button class="buy" aria-label="MacBook Pro 16 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="14" data-price="30990000">
+          <div class="ph">
+            <img src="images/images (14).jpeg" alt="MacBook Pro 16, Silver" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Pro 16"</h3>
+            <p class="spec">48 GB · 1 TB SSD · Silver</p>
+            <div class="row">
+              <div class="price">30 990 000 so'm</div>
+              <button class="buy" aria-label="MacBook Pro 16 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="card reveal tilt" data-id="15" data-price="33990000">
+          <div class="ph">
+            <img src="images/images (15).jpeg" alt="MacBook Pro 16, Space Black" loading="lazy"/>
+          </div>
+          <div class="bd">
+            <h3>MacBook Pro 16"</h3>
+            <p class="spec">48 GB · 2 TB SSD · Space Black</p>
+            <div class="row">
+              <div class="price">33 990 000 so'm</div>
+              <button class="buy" aria-label="MacBook Pro 16 savatga qo‘shish">
+                + Savat
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <span class="kick reveal">Taqqoslash</span>
+      <h2 class="reveal">Qaysi biri sizga?</h2>
+      <div class="twrap reveal">
+        <table class="tbl">
+          <tr>
+            <th>Xususiyat</th>
+            <th>Air 13"</th>
+            <th>Pro 14"</th>
+            <th>Ultra 16"</th>
+          </tr>
+          <tr>
+            <td>Protsessor</td>
+            <td>N1</td>
+            <td class="hl">N1 Pro</td>
+            <td class="hl">N1 Ultra</td>
+          </tr>
+          <tr>
+            <td>Xotira</td>
+            <td>16 GB</td>
+            <td>24 GB</td>
+            <td class="hl">36 GB</td>
+          </tr>
+          <tr>
+            <td>Batareya</td>
+            <td>18 soat</td>
+            <td>20 soat</td>
+            <td class="hl">22 soat</td>
+          </tr>
+          <tr>
+            <td>Ekran</td>
+            <td>60 Hz</td>
+            <td class="hl">120 Hz</td>
+            <td class="hl">120 Hz XDR</td>
+          </tr>
+          <tr>
+            <td>Vazn</td>
+            <td class="hl">980 g</td>
+            <td>1.3 kg</td>
+            <td>1.6 kg</td>
+          </tr>
+          <tr>
+            <td>Narx</td>
+            <td>12.49 mln</td>
+            <td>18.99 mln</td>
+            <td>26.49 mln</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <span class="kick reveal">Galereya</span>
+      <h2 class="reveal">Hayotning ichida</h2>
+      <div class="gal">
+        <div class="pic big reveal">
+          <img src="images/mac-user.jpg" alt="Ish jarayoni" loading="lazy" />
+        </div>
+        <div class="pic reveal">
+          <img src="images/mac-desk.jpg" alt="Ish stoli" loading="lazy" />
+        </div>
+        <div class="pic reveal">
+          <img src="images/mac-keyboard.jpg" alt="Klaviatura" loading="lazy" />
+        </div>
+        <div class="pic reveal">
+          <img src="images/mac-acc.jpg" alt="Aksessuarlar" loading="lazy" />
+        </div>
+        <div class="pic reveal">
+          <img src="images/mac-side.jpg" alt="Yon ko'rinish" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section id="savol">
+      <span class="kick reveal">Savol-javob</span>
+      <h2 class="reveal">Ko'p so'raladigan savollar</h2>
+      <div class="faq">
+        <div class="qa reveal">
+          <button>Kafolat qancha muddat?<i>+</i></button>
+          <div class="a">
+            <p>
+              Barcha modellarga 2 yil rasmiy kafolat beriladi. Kafolat butun
+              O'zbekiston bo'ylab servis markazlarimizda amal qiladi.
+            </p>
+          </div>
+        </div>
+        <div class="qa reveal">
+          <button>Bo'lib to'lash mumkinmi?<i>+</i></button>
+          <div class="a">
+            <p>
+              Ha, 12 oygacha foizsiz bo'lib to'lash mavjud. Dastlabki to'lov —
+              atigi 20%.
+            </p>
+          </div>
+        </div>
+        <div class="qa reveal">
+          <button>Yetkazib berish qanday?<i>+</i></button>
+          <div class="a">
+            <p>
+              Toshkent bo'ylab 1 kunda, boshqa viloyatlarga 2-3 kunda bepul
+              yetkazib beramiz.
+            </p>
+          </div>
+        </div>
+        <div class="qa reveal">
+          <button>Eski noutbukimni topshirsam bo'ladimi?<i>+</i></button>
+          <div class="a">
+            <p>
+              Albatta! Trade-in dasturi orqali eski noutbukingizni topshirib,
+              yangisiga 4 mln so'mgacha chegirma oling.
+            </p>
+          </div>
+        </div>
+        <div class="qa reveal">
+          <button>Dasturlar o'rnatib beriladimi?<i>+</i></button>
+          <div class="a">
+            <p>
+              Ha, xarid qilganingizda kerakli dasturlarni bepul o'rnatib, sozlab
+              beramiz.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="band">
+      <div class="in reveal">
+        <h2>Kelajakni bugun<br />qo'lingizga oling</h2>
+        <p>
+          MACLINE — bu shunchaki noutbuk emas, bu sizning keyingi katta
+          ishingizning boshlanishi.
+        </p>
+        <a class="btn" href="#modellar">Hozir buyurtma qiling →</a>
+      </div>
+    </div>
+
+    <footer>
+      <div class="fgrid">
+        <div>
+          <a class="logo" href="#">MAC<b>LINE</b></a>
+          <p style="margin-top: 16px">
+            Texnologiya va dizayn uyg'unligi. 2019 yildan beri O'zbekistonning
+            eng ishonchli texnika do'koni.
+          </p>
+        </div>
+        <div>
+          <h4>Modellar</h4>
+          <ul>
+            <li><a href="#modellar">Air 13"</a></li>
+            <li><a href="#modellar">Pro 14"</a></li>
+            <li><a href="#modellar">Ultra 16"</a></li>
+            <li><a href="#modellar">Aksessuarlar</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Kompaniya</h4>
+          <ul>
+            <li><a href="#">Biz haqimizda</a></li>
+            <li><a href="#">Do'konlar</a></li>
+            <li><a href="#">Vakansiyalar</a></li>
+            <li><a href="#">Yangiliklar</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Aloqa</h4>
+          <ul>
+            <li><a href="tel:+998712000000">+998 99 999 99 99</a></li>
+            <li><a href="#">muhammadrizo@macline.uz</a></li>
+            <li><a href="#">Telegram</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="fbig">MACLINE</div>
+      <div class="fbot">
+        <span>© 2026 MACLINE. Barcha huquqlar himoyalangan.</span
+        ><span>namangan lola center</span>
+      </div>
+    </footer>
+
+    <div id="toast">Mahsulot savatga qo‘shildi.</div>
+
+    <dialog id="cart" aria-labelledby="cartTitle">
+      <div class="cart-head">
+        <h2 id="cartTitle">Savatingiz</h2>
+        <button id="cartClose" aria-label="Savatni yopish">×</button>
+      </div>
+      <p id="cartEmpty">Savatingiz hozircha bo‘sh.</p>
+      <div id="cartItems"></div>
+      <div id="cartSummary" hidden>
+        <div class="row"><span>Jami</span><strong id="cartTotal"></strong></div>
+        <p>Onlayn to‘lov hali ulanmagan. Bu savat buyurtma yubormaydi.</p>
+      </div>
+    </dialog>
+    <script src="script.js"></script>
+</body>
+</html>
